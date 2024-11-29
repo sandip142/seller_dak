@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="seller_dak">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>seller_dak</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-auth.js"></script>
+
+  <script>
+    // Firebase configuration
+    const firebaseConfig = {
+    apiKey: 'AIzaSyA3dq8AwPOsofQ0z9OpftS_L_j10mcH0nE',
+    appId: '1:997287507537:web:0259bdd48114fd144e6a70',
+    messagingSenderId: '997287507537',
+    projectId: 'dak-ghar-25003',
+    authDomain: 'dak-ghar-25003.firebaseapp.com',
+    storageBucket: 'dak-ghar-25003.appspot.com',
+    measurementId: 'G-DNY8D68174', // Optional, for Analytics
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const storage = getStorage(app);
+  </script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async>
+    
+  </script>
+  
+</body>
+</html>
